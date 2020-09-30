@@ -1,0 +1,11 @@
+#home {
+  font-size: 40px;
+}
+
+.nav-items {
+  font-size: 20px;
+}
+
+#navbarResponsive {
+  z-index: 2;
+}
