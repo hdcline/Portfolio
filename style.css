@@ -1,3 +1,38 @@
+.navbar {
+  background-color: #f2c649;
+  border-bottom: solid #0074B7;
+}
+
+.navy-blue {
+  color: #0074B7;
+}
+
+.nav-link {
+  color: #0074B7;
+}
+
+.navbar-toggler {
+  color: white;
+  background-color: #0074B7;
+}
+
+.navbar-toggler span {
+  color: white;
+}
+
+#navbarResponsive a {
+  color: #0074B7;
+  display: inline-block;
+}
+
+#navbarResponsive a:hover {
+  border-bottom: solid 1px white;
+}
+
+.fa-home:hover {
+  border-bottom: solid 1px white;
+}
+
 #home {
   font-size: 40px;
 }
@@ -8,4 +43,88 @@
 
 #navbarResponsive {
   z-index: 2;
+}
+
+#first-row {
+  margin-top: 100px;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+#headshot {
+  height: 200px;
+  width: 200px;
+}
+
+.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro h1 {
+  font-size: 70px;
+}
+
+.intro p {
+  font-size: 30px;
+}
+
+.main-heading {
+  font-size: 45px;
+}
+
+#page-top {
+  scroll-margin-top: 150px;
+}
+
+#work {
+  scroll-margin-top: 150px;
+}
+
+#about {
+  scroll-margin-top: 150px;
+}
+
+#contact {
+  scroll-margin-top: 150px;
+}
+
+@media (max-width: 768px) {
+  .intro h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .intro p {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.work-link {
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .col-12 {
+    text-align: center;
+  }
+
+  .main-heading {
+    text-align: center;
+  }
+}
+
+.source {
+  font-size: 20px;
 }
