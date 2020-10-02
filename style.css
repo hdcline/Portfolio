@@ -69,7 +69,7 @@
 }
 
 .intro p {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .main-heading {
@@ -112,7 +112,14 @@
 }
 
 .work-link {
+  text-decoration: none !important;
   font-size: 40px;
+  color: black;
+}
+
+.work-link:hover {
+  border-bottom: solid 2px #0074B7;
+  color: black;
 }
 
 @media (max-width: 768px) {
@@ -127,4 +134,20 @@
 
 .source {
   font-size: 20px;
+}
+
+.blue-border {
+  border-bottom: solid #0074B7;
+}
+
+.about-me {
+  font-size: 21px;
+  line-height: 1.9;
+}
+
+@media (max-width: 768px) {
+  .about-me {
+    font-size: 15px;
+    text-align: left;
+  }
 }
