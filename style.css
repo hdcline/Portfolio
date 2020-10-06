@@ -1,19 +1,23 @@
+body {
+  font-family: 'Antic Slab', serif;
+}
+
 .navbar {
-  background-color: #f2c649;
-  border-bottom: solid #0074B7;
+  background-color: #FFC72C;
+  border-bottom: solid #005587;
 }
 
 .navy-blue {
-  color: #0074B7;
+  color: #005587;
 }
 
 .nav-link {
-  color: #0074B7;
+  color: #005587;
 }
 
 .navbar-toggler {
   color: white;
-  background-color: #0074B7;
+  background-color: #005587;
 }
 
 .navbar-toggler span {
@@ -21,7 +25,7 @@
 }
 
 #navbarResponsive a {
-  color: #0074B7;
+  color: #005587;
   display: inline-block;
 }
 
@@ -118,7 +122,7 @@
 }
 
 .work-link:hover {
-  border-bottom: solid 2px #0074B7;
+  border-bottom: solid 2px #005587;
   color: black;
 }
 
@@ -137,7 +141,7 @@
 }
 
 .blue-border {
-  border-bottom: solid #0074B7;
+  border-bottom: solid #005587;
 }
 
 .about-me {
@@ -150,4 +154,68 @@
     font-size: 15px;
     text-align: left;
   }
+
+  #contact {
+    font-size: 38px;
+    text-align: left;
+  }
+}
+
+.social-btn {
+  /* background-color: #0074B7; */
+  background-color: #005587;
+  color: #FFB81C;
+  border: solid #FFB81C;
+  font-size: 30px;
+}
+
+.social-btn:hover {
+  background-color: #FFB81C;
+  color: #005587;
+  border: solid #005587;
+}
+
+@media (max-width: 768px) {
+  .social-btn {
+    font-size: 16px;
+  }
+}
+
+.direct-email {
+  font-size: 25px;
+  text-align: center;
+}
+
+#resume {
+  text-decoration: none !important;
+  color: #005587;
+}
+
+#resume:hover {
+  border-bottom: solid 2px #005587;
+  color: #FFB81C;
+}
+
+.blue-bold {
+  font-weight: bolder;
+  color: #005587;
+}
+
+@media (max-width: 768px) {
+  .direct-email {
+    font-size: 15px;
+  }
+}
+
+.bg-blue {
+  background-color: #005587;
+}
+
+.copyright {
+  color: #FFB81C;
+  font-size: 14px;
+}
+
+.gold-border {
+  border-top: solid #FFB81C;
 }
